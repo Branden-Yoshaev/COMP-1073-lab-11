@@ -16,7 +16,7 @@
     listBtn.textContent = 'Delete';
     list.appendChild(listItem);
 
-    listBtn.onclick = function(e) {
+    listBtn.onclick = function() {
     list.removeChild(listItem);
     }
 
